@@ -1,0 +1,32 @@
+[terminal.shell]
+program = "powershell.exe"
+args = ["-NoLogo"]
+
+
+[font]
+normal      = { family = "SauceCodePro NF", style = "SemiBold" }
+bold        = { family = "SauceCodePro NF", style = "Bold" }
+italic      = { family = "SauceCodePro NF", style = "Italic" }
+bold_italic = { family = "SauceCodePro NF", style = "Bold Italic" }
+size = 12
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Control"
+chars = "\u001b[127;5u"
+
+[[keyboard.bindings]]
+key = "ñ"
+mods = "Control"
+chars = "\u001b[241;5u"
+
+
+[[keyboard.bindings]]
+key = "Tab"
+mods = "Control"
+chars = "\u001b[9;5u"
+
+[[keyboard.bindings]]
+key = "Tab"
+mods = "Control|Shift"
+chars = "\u001b[9;6u"
